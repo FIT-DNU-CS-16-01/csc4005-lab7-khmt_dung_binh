@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/NBAUjP4C)
 # CSC4005 Lab 7 – Compression: KD + Quantization Trade-offs
 
 Đây là **repo scaffold** cho **Lab 7 – Compression: Knowledge Distillation + Quantization Trade-offs** của học phần **CSC4005 – Học sâu**.
