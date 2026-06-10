@@ -1,11 +1,13 @@
 # CSC4005 Lab 7 Report – Compression: KD + Quantization Trade-offs
 
-## 1. Thông tin
+## 1. Thông tin nhóm
 
-- Họ tên: [Điền tên sinh viên]
-- Mã sinh viên: [Điền MSSV]
-- Lớp: KHMT
-- Link GitHub repo: [Điền link repo]
+| STT | Họ tên | Mã sinh viên | Lớp |
+|:---:|---|---|---|
+| 1 | Lê Tuấn Dũng | 1771020189 | KHMT 17-01 |
+| 2 | Nguyễn Hòa Bình | 1671040004 | KHMT 16-01 |
+
+- Link GitHub repo: https://github.com/FIT-DNU-CS-16-01/csc4005-lab7-khmt_dung_binh.git
 - Kỹ thuật chọn: **Cả hai (Quantization + Knowledge Distillation)**
 - Link W&B nếu dùng KD: [https://wandb.ai/models-dai-nam-university/csc4005-lab7-compression/runs/4hby76o9](https://wandb.ai/models-dai-nam-university/csc4005-lab7-compression/runs/4hby76o9)
 - Link model nếu không commit trực tiếp: [Điền link Google Drive/OneDrive]
