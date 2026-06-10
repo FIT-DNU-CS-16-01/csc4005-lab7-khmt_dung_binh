@@ -25,6 +25,7 @@ REQUIRED_PATHS = [
     "src/benchmark.py",
     "src/make_tradeoff_table.py",
     "src/utils.py",
+    "src/export_student_onnx.py",
     "ci/smoke_imports.py",
 ]
 

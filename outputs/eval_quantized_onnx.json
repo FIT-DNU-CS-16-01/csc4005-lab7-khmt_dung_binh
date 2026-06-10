@@ -1,0 +1,96 @@
+{
+  "accuracy": 0.9784537389100126,
+  "macro_f1": 0.9707605610112731,
+  "onnx_path": "models/vit_smartcampus_dynamic_int8.onnx",
+  "model_size_mb": 83.24,
+  "num_samples": 789,
+  "classes": [
+    "classroom",
+    "computerroom",
+    "library",
+    "corridor",
+    "office"
+  ],
+  "per_class_report": {
+    "classroom": {
+      "precision": 0.9910714285714286,
+      "recall": 0.9823008849557522,
+      "f1-score": 0.9866666666666667,
+      "support": 113.0
+    },
+    "computerroom": {
+      "precision": 0.9903846153846154,
+      "recall": 0.9035087719298246,
+      "f1-score": 0.944954128440367,
+      "support": 114.0
+    },
+    "library": {
+      "precision": 1.0,
+      "recall": 0.9813084112149533,
+      "f1-score": 0.9905660377358491,
+      "support": 107.0
+    },
+    "corridor": {
+      "precision": 0.9942528735632183,
+      "recall": 1.0,
+      "f1-score": 0.9971181556195965,
+      "support": 346.0
+    },
+    "office": {
+      "precision": 0.8916666666666667,
+      "recall": 0.981651376146789,
+      "f1-score": 0.9344978165938864,
+      "support": 109.0
+    },
+    "accuracy": 0.9784537389100126,
+    "macro avg": {
+      "precision": 0.9734751168371858,
+      "recall": 0.9697538888494638,
+      "f1-score": 0.9707605610112731,
+      "support": 789.0
+    },
+    "weighted avg": {
+      "precision": 0.9798454733865118,
+      "recall": 0.9784537389100126,
+      "f1-score": 0.9785447577520722,
+      "support": 789.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      111,
+      0,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      103,
+      0,
+      0,
+      11
+    ],
+    [
+      0,
+      1,
+      105,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      346,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      1,
+      107
+    ]
+  ]
+}

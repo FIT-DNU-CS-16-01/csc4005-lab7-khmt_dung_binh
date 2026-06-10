@@ -12,8 +12,6 @@ checkpoints/*
 !checkpoints/.gitkeep
 models/*
 !models/.gitkeep
-outputs/*
-!outputs/.gitkeep
 
 *.zip
 *.tar

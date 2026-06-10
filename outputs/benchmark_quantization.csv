@@ -1,0 +1,7 @@
+model,onnx_path,batch_size,mean_latency_ms,median_latency_ms,std_latency_ms,min_latency_ms,max_latency_ms,p95_latency_ms,p99_latency_ms,throughput_img_per_sec,model_size_mb
+baseline_onnx,models/vit_smartcampus.onnx,1,111.34,112.89,4.88,91.95,118.4,115.76,117.34,8.98,327.72
+baseline_onnx,models/vit_smartcampus.onnx,4,469.71,468.84,15.64,446.4,528.01,492.94,522.91,8.52,327.72
+baseline_onnx,models/vit_smartcampus.onnx,8,881.68,930.28,90.75,696.37,1024.28,983.97,1007.67,9.07,327.72
+quantized_int8,models/vit_smartcampus_dynamic_int8.onnx,1,55.65,55.03,6.81,44.77,98.91,60.67,81.85,17.97,83.24
+quantized_int8,models/vit_smartcampus_dynamic_int8.onnx,4,232.78,226.41,16.35,211.26,290.41,268.07,281.14,17.18,83.24
+quantized_int8,models/vit_smartcampus_dynamic_int8.onnx,8,473.17,469.75,14.07,448.63,524.08,498.25,515.49,16.91,83.24

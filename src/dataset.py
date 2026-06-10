@@ -12,11 +12,21 @@ IMG_EXTENSIONS = {".jpg", ".jpeg", ".png", ".bmp", ".webp"}
 
 
 def build_transform(img_size: int = 224, augment: bool = False):
+    """Build image transform pipeline.
+
+    Args:
+        img_size: Target image size (square).
+        augment: Whether to apply data augmentation (for training).
+
+    Returns:
+        A torchvision transforms.Compose object.
+    """
     if augment:
         return transforms.Compose([
             transforms.Resize((img_size, img_size)),
             transforms.RandomHorizontalFlip(p=0.5),
             transforms.RandomRotation(8),
+            transforms.ColorJitter(brightness=0.2, contrast=0.2, saturation=0.1),
             transforms.ToTensor(),
             transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
         ])
@@ -29,6 +39,25 @@ def build_transform(img_size: int = 224, augment: bool = False):
 
 
 class SmartCampusDataset(Dataset):
+    """Dataset for Smart Campus Scene Classification.
+
+    Loads images from a directory structure:
+        data_dir/
+            classroom/
+            computerroom/
+            library/
+            corridor/
+            office/
+
+    Args:
+        data_dir: Path to the root data directory.
+        classes: List of class names to include (default: all subdirectories).
+        img_size: Target image size.
+        augment: Whether to apply data augmentation.
+        max_samples: Maximum number of samples to use (for quick testing).
+        seed: Random seed for shuffling.
+    """
+
     def __init__(
         self,
         data_dir: str | Path,

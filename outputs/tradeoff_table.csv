@@ -1,0 +1,3 @@
+model,accuracy,macro_f1,mean_latency_ms,throughput_img_per_sec,model_size_mb
+baseline,0.9823,0.9761,111.34,8.98,327.72
+compressed,0.9785,0.9708,55.65,17.97,83.24

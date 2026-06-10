@@ -1,0 +1,172 @@
+{
+  "student_checkpoint": "outputs\\kd_student\\student_best.pt",
+  "student_model": "mobilenet_v2",
+  "student_params": 2230277,
+  "teacher_checkpoint": "checkpoints/teacher_vit_best_model.pt",
+  "teacher_model": "vit_b_16",
+  "teacher_params": 85802501,
+  "teacher_val_accuracy": 0.9746,
+  "teacher_val_macro_f1": 0.9644,
+  "best_val_macro_f1": 0.9247,
+  "alpha": 0.5,
+  "temperature": 4.0,
+  "epochs": 15,
+  "batch_size": 16,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "training_time_seconds": 245.3,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.8899,
+      "train_ce_loss": 0.7259,
+      "train_kd_loss": 3.0539,
+      "val_acc": 0.8898,
+      "val_macro_f1": 0.858,
+      "lr": 0.0009891830623632338,
+      "is_best": true
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.8272,
+      "train_ce_loss": 0.3246,
+      "train_kd_loss": 1.3298,
+      "val_acc": 0.8983,
+      "val_macro_f1": 0.873,
+      "lr": 0.0009572050015330873,
+      "is_best": true
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.6615,
+      "train_ce_loss": 0.2596,
+      "train_kd_loss": 1.0634,
+      "val_acc": 0.822,
+      "val_macro_f1": 0.7895,
+      "lr": 0.0009054634122155989,
+      "is_best": false
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.5162,
+      "train_ce_loss": 0.1801,
+      "train_kd_loss": 0.8524,
+      "val_acc": 0.9153,
+      "val_macro_f1": 0.8921,
+      "lr": 0.0008362196501476348,
+      "is_best": true
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.5254,
+      "train_ce_loss": 0.2183,
+      "train_kd_loss": 0.8325,
+      "val_acc": 0.9322,
+      "val_macro_f1": 0.9033,
+      "lr": 0.0007524999999999999,
+      "is_best": true
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.4242,
+      "train_ce_loss": 0.1415,
+      "train_kd_loss": 0.7069,
+      "val_acc": 0.8814,
+      "val_macro_f1": 0.8539,
+      "lr": 0.0006579634122155989,
+      "is_best": false
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.3703,
+      "train_ce_loss": 0.1196,
+      "train_kd_loss": 0.621,
+      "val_acc": 0.9237,
+      "val_macro_f1": 0.9003,
+      "lr": 0.0005567415893174885,
+      "is_best": false
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.2408,
+      "train_ce_loss": 0.0683,
+      "train_kd_loss": 0.4134,
+      "val_acc": 0.9068,
+      "val_macro_f1": 0.8772,
+      "lr": 0.00045325841068251166,
+      "is_best": false
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.2014,
+      "train_ce_loss": 0.0615,
+      "train_kd_loss": 0.3414,
+      "val_acc": 0.9322,
+      "val_macro_f1": 0.9083,
+      "lr": 0.00035203658778440114,
+      "is_best": true
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.1857,
+      "train_ce_loss": 0.0573,
+      "train_kd_loss": 0.3141,
+      "val_acc": 0.9407,
+      "val_macro_f1": 0.9211,
+      "lr": 0.00025750000000000013,
+      "is_best": true
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.1493,
+      "train_ce_loss": 0.0328,
+      "train_kd_loss": 0.2658,
+      "val_acc": 0.9237,
+      "val_macro_f1": 0.8955,
+      "lr": 0.00017378034985236532,
+      "is_best": false
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.1338,
+      "train_ce_loss": 0.043,
+      "train_kd_loss": 0.2245,
+      "val_acc": 0.9237,
+      "val_macro_f1": 0.8986,
+      "lr": 0.00010453658778440104,
+      "is_best": false
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.1264,
+      "train_ce_loss": 0.0312,
+      "train_kd_loss": 0.2216,
+      "val_acc": 0.9237,
+      "val_macro_f1": 0.9007,
+      "lr": 5.2794998466912506e-05,
+      "is_best": false
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.1181,
+      "train_ce_loss": 0.0419,
+      "train_kd_loss": 0.1942,
+      "val_acc": 0.9407,
+      "val_macro_f1": 0.9247,
+      "lr": 2.081693763676618e-05,
+      "is_best": true
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.1177,
+      "train_ce_loss": 0.0409,
+      "train_kd_loss": 0.1945,
+      "val_acc": 0.9322,
+      "val_macro_f1": 0.9071,
+      "lr": 1e-05,
+      "is_best": false
+    }
+  ],
+  "student_onnx_path": "outputs\\kd_student\\student_mobilenet_v2.onnx",
+  "student_onnx_size_mb": 8.48
+}

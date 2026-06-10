@@ -1,0 +1,91 @@
+{
+  "accuracy": 0.982256020278834,
+  "macro_f1": 0.9770124387024888,
+  "checkpoint": "outputs/kd_student_wandb/student_best.pt",
+  "model_size_mb": 8.74,
+  "num_samples": 789,
+  "student_model": "mobilenet_v2",
+  "num_parameters": 2230277,
+  "per_class_report": {
+    "classroom": {
+      "precision": 0.9826086956521739,
+      "recall": 1.0,
+      "f1-score": 0.9912280701754386,
+      "support": 113.0
+    },
+    "computerroom": {
+      "precision": 0.990909090909091,
+      "recall": 0.956140350877193,
+      "f1-score": 0.9732142857142857,
+      "support": 114.0
+    },
+    "library": {
+      "precision": 0.9902912621359223,
+      "recall": 0.9532710280373832,
+      "f1-score": 0.9714285714285714,
+      "support": 107.0
+    },
+    "corridor": {
+      "precision": 0.9913793103448276,
+      "recall": 0.9971098265895953,
+      "f1-score": 0.9942363112391931,
+      "support": 346.0
+    },
+    "office": {
+      "precision": 0.9380530973451328,
+      "recall": 0.9724770642201835,
+      "f1-score": 0.954954954954955,
+      "support": 109.0
+    },
+    "accuracy": 0.982256020278834,
+    "macro avg": {
+      "precision": 0.9786482912774295,
+      "recall": 0.975799653944871,
+      "f1-score": 0.9770124387024888,
+      "support": 789.0
+    },
+    "weighted avg": {
+      "precision": 0.9825407009008943,
+      "recall": 0.982256020278834,
+      "f1-score": 0.9822483034511549,
+      "support": 789.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      113,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      109,
+      0,
+      0,
+      5
+    ],
+    [
+      0,
+      0,
+      102,
+      3,
+      2
+    ],
+    [
+      0,
+      0,
+      1,
+      345,
+      0
+    ],
+    [
+      2,
+      1,
+      0,
+      0,
+      106
+    ]
+  ]
+}

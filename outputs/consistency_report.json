@@ -1,0 +1,12 @@
+{
+  "checkpoint": "checkpoints/best_model.pt",
+  "onnx_path": "outputs/vit_smartcampus.onnx",
+  "num_samples": 32,
+  "batch_size": 8,
+  "max_abs_diff": 4.708766937255859e-06,
+  "mean_abs_diff": 1.0921386888185225e-06,
+  "pred_match_rate": 1.0,
+  "atol": 0.0001,
+  "rtol": 0.001,
+  "passed": true
+}
